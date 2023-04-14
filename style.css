@@ -1,0 +1,41 @@
+h1,h2,h3,label,p{
+    color: orange;
+}
+
+.conteiner{
+  display: inline-flex;
+   align-items: center;
+   background-color: black;
+   border-radius: 0.5em;
+   margin: 1.5em;
+flex-direction: column;
+
+}
+.area{
+    display: flex;
+    justify-content: center;
+}
+button{
+  background-color: orange;
+  height: 3em;
+  width: 90%;
+}
+textarea{
+    width:98% ;
+    height: 20%;
+    background-color: black;
+}
+body{
+    background-color: darkgrey;
+    
+}
+input[type='number'],
+select {
+  width: 90%;
+  padding: 10px;
+  border-radius: 2px;
+  border: 2px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  text-align: center;
+}
